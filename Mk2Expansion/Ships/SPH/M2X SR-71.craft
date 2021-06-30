@@ -1,5 +1,5 @@
 ship = M2X SR-71
-version = 1.7.0
+version = 1.8.0
 description = Lockheed Martin SR-71 replica
 type = SPH
 size = 12.5490284,5.73985291,24.8668709
@@ -8,6 +8,7 @@ persistentId = 3373762049
 rot = 0,0,0,1
 missionFlag = Mk2Expansion/Agencies/IA
 vesselType = Debris
+upgraded = 1.8 ModuleControlSurface // Upgrades control authority settings for control surfaces.
 PART
 {
 	part = M2X.RavenCockpit_4293120856
@@ -562,7 +563,7 @@ PART
 		isEnabled = True
 		stagingEnabled = True
 		moduleID = fuelSwitch
-		currentSubtype = Liquid Fuel/Oxidizer
+		currentSubtype = LF+Ox
 		EVENTS
 		{
 		}
@@ -714,6 +715,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -843,6 +845,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -1023,6 +1026,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -1099,6 +1103,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -3166,6 +3171,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -3563,6 +3569,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -4342,6 +4349,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -4739,6 +4747,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}

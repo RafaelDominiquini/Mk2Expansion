@@ -1,5 +1,5 @@
 ship = M2X Dactyl
-version = 1.7.0
+version = 1.8.0
 description = A maneuverable single engine fighter with an unusual fuselage shape. The vectored engine contributes to maneuvearbility, and while its afterburner mode guzzles fuel, the plane has fuel to spare
 type = SPH
 size = 9.95623398,4.95361805,11.7953453
@@ -8,6 +8,7 @@ persistentId = 2064537641
 rot = 0,0,0,1
 missionFlag = Mk2Expansion/Agencies/IA
 vesselType = Debris
+upgraded = 1.8 ModuleControlSurface // Upgrades control authority settings for control surfaces.
 PART
 {
 	part = M2X.InverterFuselage_4294070242
@@ -482,6 +483,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -558,6 +560,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -634,6 +637,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -710,6 +714,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -837,6 +842,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -2064,6 +2070,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 15
 		EVENTS
 		{
 		}
@@ -2140,6 +2147,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 15
 		EVENTS
 		{
 		}

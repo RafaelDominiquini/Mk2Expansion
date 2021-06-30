@@ -1,5 +1,5 @@
 ship = M2X Hermes
-version = 1.7.0
+version = 1.8.0
 description = The Hermes is a moderately fast, infinite range cargo plane with a 30 ton carrying capability.
 type = SPH
 size = 25.5980053,10.3297806,24.5408173
@@ -8,6 +8,8 @@ persistentId = 2301985257
 rot = 0,0,0,1
 missionFlag = Mk2Expansion/Agencies/IA
 vesselType = Debris
+upgraded = 1.8 ModuleControlSurface // Upgrades control authority settings for control surfaces.
+upgraded = 1.8 ModuleAeroSurface // Upgrades control authority settings for control surfaces.
 PART
 {
 	part = mk2Cockpit.Standard_4294523690
@@ -556,6 +558,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 15
 		EVENTS
 		{
 		}
@@ -648,6 +651,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 15
 		EVENTS
 		{
 		}
@@ -740,6 +744,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 15
 		EVENTS
 		{
 		}
@@ -2909,6 +2914,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 15
 		EVENTS
 		{
 		}
@@ -2985,6 +2991,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 15
 		EVENTS
 		{
 		}
@@ -3062,6 +3069,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		aeroDeployAngle = 70
 		EVENTS
 		{
 		}
@@ -3160,6 +3168,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		aeroDeployAngle = 70
 		EVENTS
 		{
 		}
@@ -3258,6 +3267,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		aeroDeployAngle = 70
 		EVENTS
 		{
 		}
@@ -3356,6 +3366,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		aeroDeployAngle = 70
 		EVENTS
 		{
 		}
@@ -3454,6 +3465,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		aeroDeployAngle = 70
 		EVENTS
 		{
 		}
@@ -3552,6 +3564,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		aeroDeployAngle = 70
 		EVENTS
 		{
 		}

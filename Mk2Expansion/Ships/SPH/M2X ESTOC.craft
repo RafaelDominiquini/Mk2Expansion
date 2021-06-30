@@ -1,8 +1,9 @@
-ship = M2X Estoc
-version = 1.2.2
+ship = M2X ESTOC
+version = 1.8.0
 description = More hypersonic missile than actual plane, the Estoc is nontheless capable of level flight due to its lifting body design and, via careful piloting, of making orbit, due to the engine from which the craft derives its name.¨¨AG 1: Toggle Engine Mode
 type = SPH
 size = 5.35305071,2.86305618,9.07165241
+upgraded = 1.8 ModuleControlSurface // Upgrades control authority settings for control surfaces.
 PART
 {
 	part = mk2DroneCore_4294475514
@@ -749,6 +750,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 15
 		EVENTS
 		{
 		}
@@ -821,6 +823,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 15
 		EVENTS
 		{
 		}
@@ -2026,6 +2029,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 15
 		EVENTS
 		{
 		}
@@ -2098,6 +2102,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 15
 		EVENTS
 		{
 		}

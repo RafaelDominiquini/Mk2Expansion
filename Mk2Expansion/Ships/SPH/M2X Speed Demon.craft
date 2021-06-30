@@ -1,5 +1,5 @@
 ship = M2X Speed Demon
-version = 1.7.0
+version = 1.8.0
 description = Little more than a seat bolted to a pair of massive engines, this aircraft exisits to fufil one purpose, one need: the need for speed.¨While opening the engines up to full throttle below 10000m is not recommended, there's nothing stopping you from doing so. But remember to ask yourself 'How fast can I go before I explode?'
 type = SPH
 size = 13.2943869,3.06342697,12.2181187
@@ -8,6 +8,7 @@ persistentId = 470911549
 rot = 0,0,0,1
 missionFlag = Mk2Expansion/Agencies/IA
 vesselType = Debris
+upgraded = 1.8 ModuleControlSurface // Upgrades control authority settings for control surfaces.
 PART
 {
 	part = Mark2Cockpit_4293316242
@@ -652,6 +653,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 15
 		EVENTS
 		{
 		}
@@ -728,6 +730,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 15
 		EVENTS
 		{
 		}
@@ -1604,6 +1607,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 25
 		EVENTS
 		{
 		}
@@ -1680,6 +1684,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 25
 		EVENTS
 		{
 		}
@@ -2625,6 +2630,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 10
 		EVENTS
 		{
 		}
@@ -2701,6 +2707,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 10
 		EVENTS
 		{
 		}

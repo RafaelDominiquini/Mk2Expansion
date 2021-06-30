@@ -1,5 +1,5 @@
 ship = M2X Hyperblast
-version = 1.7.0
+version = 1.8.0
 description = The Hyperblast is a scramjet powered SSTO crew shuttle. With careful piloting, it is capable of reaching orbital velocity on jets alone, and as such forgoes the usual second stage rocket motor, instead relying on a pair of lightweight OMS motors for circularization and orbital interception.
 type = SPH
 size = 15.0182304,5.13342476,22.5388317
@@ -8,6 +8,7 @@ persistentId = 228986955
 rot = 0,0,0,1
 missionFlag = Mk2Expansion/Agencies/IA
 vesselType = Debris
+upgraded = 1.8 ModuleControlSurface // Upgrades control authority settings for control surfaces.
 PART
 {
 	part = mk2DroneCore_4294452248
@@ -694,7 +695,7 @@ PART
 		isEnabled = True
 		stagingEnabled = True
 		moduleID = fuelSwitch
-		currentSubtype = Monoprop
+		currentSubtype = Monopropellant
 		EVENTS
 		{
 		}
@@ -1464,7 +1465,7 @@ PART
 		isEnabled = True
 		stagingEnabled = True
 		moduleID = fuelSwitch
-		currentSubtype = MP/Ec
+		currentSubtype = MP+EC
 		EVENTS
 		{
 		}
@@ -2544,6 +2545,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -3669,6 +3671,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -4786,6 +4789,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -4962,6 +4966,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -5038,6 +5043,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}

@@ -1,5 +1,5 @@
 ship = M2X Grasshopper
-version = 1.7.0
+version = 1.8.0
 description = A light, short range easy-to-fly V/STOL trainer craft.
 type = SPH
 size = 10.1252213,3.6885643,14.2585754
@@ -8,6 +8,8 @@ persistentId = 1310625638
 rot = 0,0,0,1
 missionFlag = Mk2Expansion/Agencies/IA
 vesselType = Debris
+upgraded = 1.8 ModuleControlSurface // Upgrades control authority settings for control surfaces.
+upgraded = 1.8 ModuleAeroSurface // Upgrades control authority settings for control surfaces.
 PART
 {
 	part = M2X.ViperCockpit_4294444348
@@ -996,6 +998,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -1125,6 +1128,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -1252,6 +1256,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -2377,6 +2382,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -2559,6 +2565,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -2636,6 +2643,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		aeroDeployAngle = 70
 		EVENTS
 		{
 		}
@@ -2734,6 +2742,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		aeroDeployAngle = 70
 		EVENTS
 		{
 		}

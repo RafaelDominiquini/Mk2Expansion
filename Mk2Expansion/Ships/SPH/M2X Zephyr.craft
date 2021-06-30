@@ -1,5 +1,5 @@
 ship = M2X Zephyr
-version = 1.7.0
+version = 1.8.0
 description = A small and maneuverable single seat aircraft. Carrying no fuel, and powered by a nuclear turbojet, the Zephyr can fly as far as the winds can blow, for flight time is limited only by a pilot's endurance.
 type = SPH
 size = 9.65106964,3.24398422,7.56024551
@@ -8,6 +8,7 @@ persistentId = 3774805912
 rot = 0,0,0,1
 missionFlag = Mk2Expansion/Agencies/IA
 vesselType = Debris
+upgraded = 1.8 ModuleControlSurface // Upgrades control authority settings for control surfaces.
 PART
 {
 	part = M2X.ViperCockpit_4294515212
@@ -699,6 +700,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 15
 		EVENTS
 		{
 		}
@@ -883,6 +885,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
@@ -959,6 +962,7 @@ PART
 		partDeployInvert = False
 		authorityLimiter = 100
 		stagingEnabled = True
+		deployAngle = 20
 		EVENTS
 		{
 		}
